@@ -1,0 +1,115 @@
+[2026-01-31T12:57:14.173+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-01-31T12:57:14.173+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-01-31T12:57:14.174+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-31T12:57:14.174+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-01-31T12:57:14.175+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-01-31T12:57:22.310+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.55s           2026-01-31T12:57:14
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.05s           2026-01-31T12:57:14
+================================================================================
+[2026-01-31T12:57:52.683+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.27s           2026-01-31T12:57:45
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.16s           2026-01-31T12:57:44
+================================================================================
+[2026-01-31T12:58:23.045+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.20s           2026-01-31T12:58:16
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.10s           2026-01-31T12:58:14
+================================================================================
+[2026-01-31T12:58:53.368+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.29s           2026-01-31T12:58:46
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.07s           2026-01-31T12:58:45
+================================================================================
+[2026-01-31T12:59:23.679+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.17s           2026-01-31T12:59:16
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.08s           2026-01-31T12:59:15
+================================================================================
+[2026-01-31T12:59:54.005+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.20s           2026-01-31T12:59:47
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.08s           2026-01-31T12:59:45
+================================================================================
+[2026-01-31T13:00:24.322+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.17s           2026-01-31T13:00:17
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.06s           2026-01-31T13:00:16
+================================================================================
+[2026-01-31T13:00:54.685+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.17s           2026-01-31T13:00:47
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.13s           2026-01-31T13:00:46
+================================================================================
+[2026-01-31T13:01:24.989+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.16s           2026-01-31T13:01:18
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.06s           2026-01-31T13:01:16
+================================================================================
+[2026-01-31T13:01:55.306+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.24s           2026-01-31T13:01:48
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.07s           2026-01-31T13:01:47
+================================================================================
+[2026-01-31T13:02:14.454+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-01-31T13:02:14.459+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-01-31T13:02:25.622+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.16s           2026-01-31T13:02:18
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.07s           2026-01-31T13:02:17
+================================================================================
+[2026-01-31T13:02:55.912+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.16s           2026-01-31T13:02:48
+/opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.06s           2026-01-31T13:02:47
+================================================================================

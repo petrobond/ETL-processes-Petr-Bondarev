@@ -1,0 +1,84 @@
+[2026-01-31T12:57:14.204+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:57:14.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T12:57:14.205+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:57:14.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:57:14.219+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:57:14.232+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:57:14.232+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T12:57:14.238+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:57:14.238+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T12:57:14.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.043 seconds
+[2026-01-31T12:57:44.505+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:57:44.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T12:57:44.508+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:57:44.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:57:44.521+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:57:44.628+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:57:44.628+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T12:57:44.631+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:57:44.631+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T12:57:44.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.140 seconds
+[2026-01-31T12:58:14.914+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:58:14.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T12:58:14.920+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:58:14.920+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:58:14.931+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:58:14.961+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:58:14.961+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T12:58:14.967+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:58:14.967+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T12:58:14.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.071 seconds
+[2026-01-31T12:58:45.270+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:58:45.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T12:58:45.273+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:58:45.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:58:45.283+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:58:45.302+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:58:45.302+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T12:58:45.308+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:58:45.308+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T12:58:45.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.052 seconds
+[2026-01-31T12:59:15.565+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:59:15.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T12:59:15.571+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:59:15.571+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:59:15.580+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:59:15.601+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:59:15.601+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T12:59:15.612+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:59:15.612+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T12:59:15.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.062 seconds
+[2026-01-31T12:59:45.885+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:59:45.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T12:59:45.888+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:59:45.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:59:45.902+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T12:59:45.927+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:59:45.927+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T12:59:45.934+0000] {logging_mixin.py:188} INFO - [2026-01-31T12:59:45.934+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T12:59:45.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.063 seconds
+[2026-01-31T13:00:16.218+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:00:16.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T13:00:16.220+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:00:16.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:00:16.227+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:00:16.244+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:00:16.244+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T13:00:16.251+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:00:16.251+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T13:00:16.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.046 seconds
+[2026-01-31T13:00:46.555+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:00:46.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T13:00:46.559+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:00:46.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:00:46.583+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:00:46.607+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:00:46.607+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T13:00:46.619+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:00:46.619+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T13:00:46.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.088 seconds
+[2026-01-31T13:01:16.898+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:01:16.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T13:01:16.900+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:01:16.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:01:16.907+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:01:16.923+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:01:16.923+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T13:01:16.928+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:01:16.928+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T13:01:16.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.045 seconds
+[2026-01-31T13:01:47.195+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:01:47.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T13:01:47.198+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:01:47.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:01:47.208+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:01:47.230+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:01:47.229+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T13:01:47.235+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:01:47.235+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T13:01:47.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.056 seconds
+[2026-01-31T13:02:17.515+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:02:17.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T13:02:17.518+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:02:17.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:02:17.527+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:02:17.547+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:02:17.547+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T13:02:17.553+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:02:17.553+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T13:02:17.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.052 seconds
+[2026-01-31T13:02:47.795+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:02:47.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hw1_flatten_dag.py for tasks to queue
+[2026-01-31T13:02:47.797+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:02:47.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:02:47.805+0000] {processor.py:840} INFO - DAG(s) 'hw1_flatten_dag' retrieved from /opt/airflow/dags/hw1_flatten_dag.py
+[2026-01-31T13:02:47.822+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:02:47.822+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-31T13:02:47.828+0000] {logging_mixin.py:188} INFO - [2026-01-31T13:02:47.828+0000] {dag.py:3947} INFO - Setting next_dagrun for hw1_flatten_dag to None, run_after=None
+[2026-01-31T13:02:47.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hw1_flatten_dag.py took 0.047 seconds

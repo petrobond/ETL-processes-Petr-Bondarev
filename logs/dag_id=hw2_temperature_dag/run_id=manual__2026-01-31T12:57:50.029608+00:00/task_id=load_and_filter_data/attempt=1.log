@@ -1,0 +1,19 @@
+[2026-01-31T12:57:50.534+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-31T12:57:50.543+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hw2_temperature_dag.load_and_filter_data manual__2026-01-31T12:57:50.029608+00:00 [queued]>
+[2026-01-31T12:57:50.545+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hw2_temperature_dag.load_and_filter_data manual__2026-01-31T12:57:50.029608+00:00 [queued]>
+[2026-01-31T12:57:50.545+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-31T12:57:50.548+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_and_filter_data> on 2026-01-31 12:57:50.029608+00:00
+[2026-01-31T12:57:50.551+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=204) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-31T12:57:50.551+0000] {standard_task_runner.py:64} INFO - Started process 206 to run task
+[2026-01-31T12:57:50.551+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'hw2_temperature_dag', 'load_and_filter_data', 'manual__2026-01-31T12:57:50.029608+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/hw2_temperature_dag.py', '--cfg-path', '/tmp/tmpz9e41tuk']
+[2026-01-31T12:57:50.552+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask load_and_filter_data
+[2026-01-31T12:57:50.563+0000] {task_command.py:426} INFO - Running <TaskInstance: hw2_temperature_dag.load_and_filter_data manual__2026-01-31T12:57:50.029608+00:00 [running]> on host cf04a253ce56
+[2026-01-31T12:57:50.585+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hw2_temperature_dag' AIRFLOW_CTX_TASK_ID='load_and_filter_data' AIRFLOW_CTX_EXECUTION_DATE='2026-01-31T12:57:50.029608+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-31T12:57:50.029608+00:00'
+[2026-01-31T12:57:50.585+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-31T12:57:50.769+0000] {logging_mixin.py:188} INFO - Filtered data: 20345 records (In only)
+[2026-01-31T12:57:50.769+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-01-31T12:57:50.769+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-31T12:57:50.773+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=hw2_temperature_dag, task_id=load_and_filter_data, run_id=manual__2026-01-31T12:57:50.029608+00:00, execution_date=20260131T125750, start_date=20260131T125750, end_date=20260131T125750
+[2026-01-31T12:57:50.819+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-31T12:57:50.826+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-31T12:57:50.827+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

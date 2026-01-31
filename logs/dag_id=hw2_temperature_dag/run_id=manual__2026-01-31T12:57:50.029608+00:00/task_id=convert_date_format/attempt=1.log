@@ -1,0 +1,19 @@
+[2026-01-31T12:57:52.645+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-31T12:57:52.653+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hw2_temperature_dag.convert_date_format manual__2026-01-31T12:57:50.029608+00:00 [queued]>
+[2026-01-31T12:57:52.655+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hw2_temperature_dag.convert_date_format manual__2026-01-31T12:57:50.029608+00:00 [queued]>
+[2026-01-31T12:57:52.655+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-31T12:57:52.659+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): convert_date_format> on 2026-01-31 12:57:50.029608+00:00
+[2026-01-31T12:57:52.661+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=210) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-31T12:57:52.662+0000] {standard_task_runner.py:64} INFO - Started process 212 to run task
+[2026-01-31T12:57:52.661+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'hw2_temperature_dag', 'convert_date_format', 'manual__2026-01-31T12:57:50.029608+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/hw2_temperature_dag.py', '--cfg-path', '/tmp/tmpzz36ueb6']
+[2026-01-31T12:57:52.662+0000] {standard_task_runner.py:91} INFO - Job 9: Subtask convert_date_format
+[2026-01-31T12:57:52.673+0000] {task_command.py:426} INFO - Running <TaskInstance: hw2_temperature_dag.convert_date_format manual__2026-01-31T12:57:50.029608+00:00 [running]> on host cf04a253ce56
+[2026-01-31T12:57:52.692+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hw2_temperature_dag' AIRFLOW_CTX_TASK_ID='convert_date_format' AIRFLOW_CTX_EXECUTION_DATE='2026-01-31T12:57:50.029608+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-31T12:57:50.029608+00:00'
+[2026-01-31T12:57:52.692+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-31T12:57:52.808+0000] {logging_mixin.py:188} INFO - Date conversion complete. Date range: 2018-07-28 to 2018-12-08
+[2026-01-31T12:57:52.808+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-01-31T12:57:52.808+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-31T12:57:52.810+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=hw2_temperature_dag, task_id=convert_date_format, run_id=manual__2026-01-31T12:57:50.029608+00:00, execution_date=20260131T125750, start_date=20260131T125752, end_date=20260131T125752
+[2026-01-31T12:57:52.842+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-31T12:57:52.848+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-31T12:57:52.848+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
