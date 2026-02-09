@@ -113,3 +113,186 @@ File Path                                 PID    Runtime      # DAGs    # Errors
 /opt/airflow/dags/hw2_temperature_dag.py                           1           0  0.16s           2026-01-31T13:02:48
 /opt/airflow/dags/hw1_flatten_dag.py                               1           0  0.06s           2026-01-31T13:02:47
 ================================================================================
+[2026-02-09T17:45:25.708+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-02-09T17:45:25.708+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-02-09T17:45:25.708+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-09T17:45:25.708+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-09T17:45:25.711+0000] {manager.py:740} INFO - There are 4 files in /opt/airflow/dags
+[2026-02-09T17:45:41.465+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.60s           2026-02-09T17:45:26
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.60s           2026-02-09T17:45:26
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.12s           2026-02-09T17:45:26
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:45:26
+================================================================================
+[2026-02-09T17:46:12.205+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.44s           2026-02-09T17:45:57
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.43s           2026-02-09T17:45:57
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.18s           2026-02-09T17:45:57
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.05s           2026-02-09T17:45:57
+================================================================================
+[2026-02-09T17:46:42.722+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.23s           2026-02-09T17:46:27
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.23s           2026-02-09T17:46:27
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:46:27
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:46:27
+================================================================================
+[2026-02-09T17:47:13.165+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.15s           2026-02-09T17:46:58
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.14s           2026-02-09T17:46:58
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:46:58
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:46:58
+================================================================================
+[2026-02-09T17:47:43.682+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.25s           2026-02-09T17:47:28
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.24s           2026-02-09T17:47:28
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.16s           2026-02-09T17:47:28
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.04s           2026-02-09T17:47:28
+================================================================================
+[2026-02-09T17:48:14.107+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.17s           2026-02-09T17:47:58
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.17s           2026-02-09T17:47:58
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:47:59
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:47:58
+================================================================================
+[2026-02-09T17:48:44.578+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.18s           2026-02-09T17:48:29
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.17s           2026-02-09T17:48:29
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:48:29
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:48:29
+================================================================================
+[2026-02-09T17:49:15.087+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.24s           2026-02-09T17:48:59
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.23s           2026-02-09T17:48:59
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.16s           2026-02-09T17:49:00
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:48:59
+================================================================================
+[2026-02-09T17:49:45.564+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.18s           2026-02-09T17:49:30
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.17s           2026-02-09T17:49:30
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:49:30
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:49:30
+================================================================================
+[2026-02-09T17:50:15.996+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.17s           2026-02-09T17:50:00
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.16s           2026-02-09T17:50:00
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:50:00
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:50:00
+================================================================================
+[2026-02-09T17:50:26.088+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-09T17:50:26.096+0000] {manager.py:740} INFO - There are 4 files in /opt/airflow/dags
+[2026-02-09T17:50:46.648+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.29s           2026-02-09T17:50:31
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.28s           2026-02-09T17:50:31
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.27s           2026-02-09T17:50:31
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.08s           2026-02-09T17:50:31
+================================================================================
+[2026-02-09T17:51:17.090+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.18s           2026-02-09T17:51:01
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.17s           2026-02-09T17:51:01
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:51:02
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:51:01
+================================================================================
+[2026-02-09T17:51:47.587+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.21s           2026-02-09T17:51:32
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.20s           2026-02-09T17:51:32
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.12s           2026-02-09T17:51:32
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:51:32
+================================================================================
+[2026-02-09T17:52:18.109+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.24s           2026-02-09T17:52:02
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.23s           2026-02-09T17:52:02
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.15s           2026-02-09T17:52:03
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:52:02
+================================================================================
+[2026-02-09T17:52:48.623+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.21s           2026-02-09T17:52:33
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.19s           2026-02-09T17:52:33
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.11s           2026-02-09T17:52:33
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.03s           2026-02-09T17:52:33
+================================================================================
+[2026-02-09T17:53:19.105+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hw3_incremental_load_dag.py                           1           0  0.17s           2026-02-09T17:53:03
+/opt/airflow/dags/hw3_full_load_dag.py                                  1           0  0.16s           2026-02-09T17:53:03
+/opt/airflow/dags/hw2_temperature_dag.py                                1           0  0.12s           2026-02-09T17:53:04
+/opt/airflow/dags/hw1_flatten_dag.py                                    1           0  0.06s           2026-02-09T17:53:03
+================================================================================

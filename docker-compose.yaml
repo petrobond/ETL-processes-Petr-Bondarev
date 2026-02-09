@@ -16,6 +16,7 @@ x-airflow-common: &airflow-common
     - ./HW1-data-sources/output:/opt/airflow/project/HW1-data-sources/output
     - ./HW2-basic-data-transformation/input:/opt/airflow/project/HW2-basic-data-transformation/input
     - ./HW2-basic-data-transformation/output:/opt/airflow/project/HW2-basic-data-transformation/output
+    - ./HW3-load-data-into-target:/opt/airflow/project/HW3-load-data-into-target
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     - postgres
