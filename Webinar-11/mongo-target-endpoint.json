@@ -1,0 +1,27 @@
+{
+  "name": "mg-target",
+  "description": "MongoDB target endpoint",
+  "settings": {
+    "mongo_target": {
+      "connection": {
+        "connection_options": {
+          "on_premise": {
+            "hosts": ["rc1a-uk42srdp0mqord9o.mdb.yandexcloud.net"],
+            "port": 27018,
+            "tls_mode": {
+              "enabled": {}
+            },
+            "replica_set": "rs01"
+          }
+        },
+        "user": "mmg-user",
+        "password": {
+          "raw": "P@ssw0rd123!"
+        },
+        "auth_source": "db1"
+      },
+      "database": "db1",
+      "cleanup_policy": "DISABLED"
+    }
+  }
+}

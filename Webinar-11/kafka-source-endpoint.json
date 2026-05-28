@@ -1,0 +1,32 @@
+{
+  "name": "kf-source",
+  "description": "Kafka source endpoint",
+  "settings": {
+    "kafka_source": {
+      "connection": {
+        "cluster_id": "c9qd38t5i459fe97j085",
+        "security_group_ids": ["enpgbrs66rfm8g332o35"],
+        "subnet_id": "e9bk7r474kfj6lfed3p4"
+      },
+      "auth": {
+        "sasl": {
+          "mechanism": "SASL_MECHANISM_SCRAM_SHA_512",
+          "user": "mkf-user",
+          "password": {
+            "raw": "P@ssw0rd123!"
+          }
+        }
+      },
+      "topic_name": "sensors",
+      "parser": {
+        "json_parser": {
+          "schema": {
+            "fields": {}
+          },
+          "add_rest_columns": true,
+          "null_keys_allowed": true
+        }
+      }
+    }
+  }
+}
