@@ -79,7 +79,7 @@ cd Module-3-final
 docker-compose up -d
 ```
 
-Дождитесь, пока все сервисы запустятся (1–2 минуты). Веб-интерфейс Airflow доступен по адресу [http://localhost:8080](http://localhost:8080) (логин: `airflow`, пароль: `airflow`).
+Дождитесь, пока все сервисы запустятся (1–2 минуты). Веб-интерфейс Airflow доступен по адресу [http://localhost:8081](http://localhost:8081) (логин: `airflow`, пароль: `airflow`).
 
 ### 2. Порядок запуска DAG-ов
 
