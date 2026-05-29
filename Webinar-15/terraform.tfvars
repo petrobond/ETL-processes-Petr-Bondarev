@@ -1,0 +1,6 @@
+yc_token            = "y0__xCg8PkMGMHdEyDEzZrkFTCUicGQCD693xlaPkR7tdvy_Ej_aQ_oUM-6"
+yc_cloud_id         = "b1gksr2m9mcfhrbof7nf"
+yc_folder_id        = "b1ghq0b0cq7h3uui6dj1"
+yc_zone             = "ru-central1-b"
+dp_ssh_key          = "ssh-key.pub"
+bucket_name         = "dataproc-bucket-17800457"

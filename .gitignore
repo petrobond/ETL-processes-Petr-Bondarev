@@ -26,3 +26,16 @@ Webinar-13-14/terraform.tfvars
 Webinar-13-14/terraform.tfstate*
 Webinar-13-14/*.backup
 Webinar-13-14/*.bak
+
+Webinar-15/*.pdf
+Webinar-15/*.html
+Webinar-15/*.webarchive
+
+# Terraform generated
+Webinar-13-14/.terraform/
+Webinar-13-14/.tofu.d/
+Webinar-13-14/.terraformrc
+Webinar-13-14/terraform.tfvars
+Webinar-13-14/terraform.tfstate*
+Webinar-13-14/*.backup
+Webinar-13-14/*.bak
