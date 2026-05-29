@@ -1,0 +1,103 @@
+# Часть B: Managed Airflow + Data Proc + Hive Metastore (упрощенная настройка)
+#
+# Используем один сервисный аккаунт, один бакет (уже создан в postgresql-to-objstorage.tf)
+
+locals {
+  # Используем уже созданный бакет из Части A
+  airflow_bucket = var.bucket_name
+}
+
+# Сервисный аккаунт для Airflow и Data Proc ("my-editor")
+resource "yandex_iam_service_account" "my-editor" {
+  description = "Service account for Airflow and Data Proc (simplified setup)"
+  folder_id   = var.yc_folder_id
+  name        = "my-editor"
+}
+
+# Роли для сервисного аккаунта
+resource "yandex_resourcemanager_folder_iam_member" "my-editor-dataproc" {
+  folder_id = var.yc_folder_id
+  role      = "dataproc.editor"
+  member    = "serviceAccount:${yandex_iam_service_account.my-editor.id}"
+}
+
+resource "yandex_resourcemanager_folder_iam_member" "my-editor-storage" {
+  folder_id = var.yc_folder_id
+  role      = "storage.editor"
+  member    = "serviceAccount:${yandex_iam_service_account.my-editor.id}"
+}
+
+resource "yandex_resourcemanager_folder_iam_member" "my-editor-vpc" {
+  folder_id = var.yc_folder_id
+  role      = "vpc.user"
+  member    = "serviceAccount:${yandex_iam_service_account.my-editor.id}"
+}
+
+resource "yandex_resourcemanager_folder_iam_member" "my-editor-airflow" {
+  folder_id = var.yc_folder_id
+  role      = "managed-airflow.integrationProvider"
+  member    = "serviceAccount:${yandex_iam_service_account.my-editor.id}"
+}
+
+resource "yandex_resourcemanager_folder_iam_member" "my-editor-sa-user" {
+  folder_id = var.yc_folder_id
+  role      = "iam.serviceAccounts.user"
+  member    = "serviceAccount:${yandex_iam_service_account.my-editor.id}"
+}
+
+# Сеть для Airflow (используем default subnet)
+data "yandex_vpc_network" "default" {
+  name = "default"
+}
+
+data "yandex_vpc_subnet" "default-ru-central1-a" {
+  name = "default-ru-central1-a"
+}
+
+# Кластер Managed Airflow
+resource "yandex_airflow_cluster" "airflow-cluster" {
+  name               = "airflow-cluster-webinar14"
+  description        = "Airflow cluster for webinar 13-14 automation"
+  service_account_id = yandex_iam_service_account.my-editor.id
+  subnet_ids         = [data.yandex_vpc_subnet.default-ru-central1-a.id]
+  security_group_ids = []
+
+  admin_password = var.pg_password
+
+  webserver = {
+    count              = 1
+    resource_preset_id = "s2.small"
+  }
+
+  scheduler = {
+    count              = 1
+    resource_preset_id = "s2.small"
+  }
+
+  worker = {
+    count              = 1
+    resource_preset_id = "s2.small"
+    min_count          = 1
+    max_count          = 3
+  }
+
+  triggerer = {
+    count              = 0
+  }
+
+  code_sync = {
+    s3 = {
+      bucket = local.airflow_bucket
+    }
+  }
+
+  pip_packages = [
+    "apache-airflow-providers-yandex",
+  ]
+
+  depends_on = [
+    yandex_resourcemanager_folder_iam_member.my-editor-airflow,
+    yandex_resourcemanager_folder_iam_member.my-editor-vpc,
+    yandex_resourcemanager_folder_iam_member.my-editor-storage,
+  ]
+}

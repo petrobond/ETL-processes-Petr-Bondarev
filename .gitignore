@@ -3,8 +3,8 @@ logs/
 .DS_Store
 __pycache__/
 
-Webinar-11/Вебинар 11 и 12_ДЗ практическое.pdf
-Webinar-11/Поставка данных из Yandex Managed Service for Apache Kafka® в Yandex StoreDoc с помощью Yandex Data .html
+Webinar-11/*.pdf
+Webinar-11/*.html
 
 # Terraform generated
 Webinar-11/.terraform/
@@ -14,3 +14,15 @@ Webinar-11/terraform.tfvars
 Webinar-11/terraform.tfstate*
 Webinar-11/*.backup
 Webinar-11/*.bak
+
+Webinar-13-14/*.pdf
+Webinar-13-14/*.html
+
+# Terraform generated
+Webinar-13-14/.terraform/
+Webinar-13-14/.tofu.d/
+Webinar-13-14/.terraformrc
+Webinar-13-14/terraform.tfvars
+Webinar-13-14/terraform.tfstate*
+Webinar-13-14/*.backup
+Webinar-13-14/*.bak
