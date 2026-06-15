@@ -39,3 +39,4 @@ Webinar-13-14/terraform.tfvars
 Webinar-13-14/terraform.tfstate*
 Webinar-13-14/*.backup
 Webinar-13-14/*.bak
+*.terraform/providers/

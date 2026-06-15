@@ -1,0 +1,16 @@
+channel,decision_status,total_applications,total_approved_amount
+branch,manual_review,21737,0
+web,rejected,32197,0
+partner,approved,34118,1551783511
+web,approved,34428,1563906305
+mobile,approved,34339,1566680288
+atm,approved,33857,1535781309
+atm,manual_review,21490,0
+mobile,rejected,32456,0
+partner,rejected,32283,0
+atm,rejected,32077,0
+mobile,manual_review,21780,0
+branch,approved,33699,1534369051
+partner,manual_review,21467,0
+branch,rejected,32522,0
+web,manual_review,21550,0
